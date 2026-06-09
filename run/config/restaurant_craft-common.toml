@@ -1,0 +1,35 @@
+#Range: 1 ~ 32
+maxVerticalScanRange = 4
+#Range: 0 ~ 23999
+businessCloseTime = 12000
+#Range: 1 ~ 32
+initialSpawnCustomerCount = 4
+#Range: 1 ~ 32
+maxActiveCustomers = 4
+#Range: 10 ~ 1200
+seatSearchTimeoutSeconds = 180
+#Range: 1 ~ 600
+afterOrderSuccessLeaveSeconds = 60
+#Range: 10 ~ 1200
+baseDishOrderTimeoutSeconds = 90
+#Range: 10 ~ 1200
+normalDishOrderTimeoutSeconds = 120
+#Range: 10 ~ 1200
+advancedDishOrderTimeoutSeconds = 150
+#Range: 0 ~ 1000000
+baseDishIncome = 500
+#Range: 0 ~ 1000000
+normalDishIncome = 1500
+#Range: 0 ~ 1000000
+advancedDishIncome = 5000
+#Range: 0 ~ 1000
+failedOrderPopularityPenalty = 10
+#Range: 0 ~ 1000
+perfectBusinessPopularityBonus = 20
+#Range: 0 ~ 1000
+maxDecorCountPerType = 10
+clearDeviceInventoryAfterBusiness = true
+forceCloseBusinessOnWorldLoad = true
+allowFoodBlockDrop = false
+allowCookingOutsideBusiness = true
+

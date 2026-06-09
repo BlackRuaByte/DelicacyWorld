@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: restaurant_craft
+Specification-Vendor: Restaurant Craft Team
+Specification-Version: 1
+Implementation-Title: foodworld
+Implementation-Version: 1.0.0
+Implementation-Vendor: Restaurant Craft Team
+Implementation-Timestamp: 2026-06-08T23:44:19+0800
+MixinConfigs: restaurant_craft.mixins.json
+

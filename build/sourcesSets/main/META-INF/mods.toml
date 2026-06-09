@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="restaurant_craft"
+version="1.0.0"
+displayName="Restaurant Craft"
+authors="Restaurant Craft Team"
+description='''A restaurant management simulation mod for Forge.'''
+[[dependencies."restaurant_craft"]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies."restaurant_craft"]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

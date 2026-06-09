@@ -1,0 +1,1 @@
+package com.restaurantcraft.util; import net.minecraft.network.chat.Component; import net.minecraft.world.entity.player.Player; public class RestaurantMessageUtil { public static void send(Player p,String key){p.displayClientMessage(Component.translatable(key),true);} }

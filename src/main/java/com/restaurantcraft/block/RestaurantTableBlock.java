@@ -1,0 +1,3 @@
+package com.restaurantcraft.block;
+import com.restaurantcraft.util.RestaurantAreaUtil; import net.minecraft.core.BlockPos; import net.minecraft.network.chat.Component; import net.minecraft.world.item.context.BlockPlaceContext; import net.minecraft.world.level.block.Block; import net.minecraft.world.level.block.state.*;
+public class RestaurantTableBlock extends Block { public RestaurantTableBlock(Properties p){super(p);} public BlockState getStateForPlacement(BlockPlaceContext c){ if(!c.getLevel().isClientSide && !RestaurantAreaUtil.canPlaceRestaurantPart(c.getLevel(),c.getClickedPos(),true)){ c.getPlayer().displayClientMessage(Component.translatable("message.restaurant_craft.limit_tables_chairs"),true); return null;} return super.getStateForPlacement(c);} }
